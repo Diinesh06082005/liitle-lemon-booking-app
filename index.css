@@ -1,0 +1,35 @@
+/* --- Global Styles for Little Lemon --- */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Markazi+Text:wght@500&display=swap');
+
+:root {
+  --primary-green: #495E57;
+  --primary-yellow: #F4CE14;
+  --secondary-salmon: #EE9972;
+  --secondary-peach: #FBDABB;
+  --secondary-light-gray: #EDEFEE;
+  --secondary-dark-gray: #333333;
+}
+
+body {
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--secondary-light-gray);
+}
+
+h1, h2, h3 {
+  font-family: 'Markazi Text', serif;
+  color: var(--primary-green);
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* --- Utility Classes --- */
+.container {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+}
